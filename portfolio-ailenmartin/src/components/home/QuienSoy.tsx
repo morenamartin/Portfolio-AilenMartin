@@ -4,7 +4,7 @@ const QuienSoy = () => {
             <h1 className="font-serif -tracking-[8px] text-7xl">Quién Soy</h1>
             <div className="grid grid-cols-[2fr_1fr] gap-10 mt-20 mb-10">
 
-                <div className="ml-6">      
+                <div>      
                     <p className="font-serif text-[28px] -tracking-[1px]">Hola! Soy Ailu <br />
                         Una <strong>directora de arte</strong> que trabaja con las redes sociales hace unos 2 años.<br />
                             Me encanta trabajar con gente que quiere crecer constantemente <br />

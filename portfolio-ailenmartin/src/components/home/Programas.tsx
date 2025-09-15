@@ -13,51 +13,50 @@ import Drive from "../../assets/programas/drive.png"
 import Image from "next/image"
 
 
-
 const arrayProgramas = [
     {
         titulo: "Photoshop",
         icono: photoshop
     },
     {
-        titulo: "Illustrator",
-        icono: illustrator
-    },
-    {
-        titulo: "Premier Pro",
-        icono: premierpro
-    },
-    {
-        titulo: "Indesign",
-        icono: Indesign
-    },
-    {
-        titulo: "Canva",
-        icono: Canva
-    },
-    {
-        titulo: "Capcut",
-        icono: Capcut
-    },
-    {
         titulo: "Notion",
         icono: Notion
+    },
+    {
+        titulo: "Illustrator",
+        icono: illustrator
     },
     {
         titulo: "Trello",
         icono: Trello
     },
     {
+        titulo: "Premier Pro",
+        icono: premierpro
+    },
+    {
         titulo: "Excel",
         icono: Excel
+    },
+    {
+        titulo: "Indesign",
+        icono: Indesign
     },
     {
         titulo: "Word",
         icono: Word
     },
     {
+        titulo: "Canva",
+        icono: Canva
+    },
+    {
         titulo: "Power Point",
         icono: PowerPoint
+    },
+    {
+        titulo: "Capcut",
+        icono: Capcut
     },
     {
         titulo: "Drive",
@@ -67,13 +66,15 @@ const arrayProgramas = [
 
 const Programas = () => {
     return (
-        <div className="mt-20">
+        <div className="mt-24">
             <h1 className="font-serif text-[#e1b4bf] text-7xl -tracking-[4px] text-center">PROGRAMAS QUE <br /> UTILIZO</h1>
-            <div className="grid grid-cols-2 gap-6 w-[40%] mx-auto bg-green-400">
+            <div className="grid grid-cols-2 gap-x-40 w-[45%] mt-10 mx-auto">
                 {arrayProgramas.map((programa, index) => (
-                    <div key={index} className="flex flex-row items-center">
-                        <Image src={programa.icono} width={80} height={80} alt={programa.titulo} />    
-                        <span className="font-serif text-xl text-center">{programa.titulo}</span>
+                    <div key={index} className="flex flex-row items-center mb-4 w-80">
+                        <div className="w-[70px] h-fit flex justify-center items-center mr-4">
+                            <Image src={programa.icono} alt={programa.titulo} />    
+                        </div>
+                        <span className="font-serif text-3xl">{programa.titulo}</span>
                     </div>
                 ))}
             </div>
