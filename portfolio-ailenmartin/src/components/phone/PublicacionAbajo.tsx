@@ -2,7 +2,7 @@ import { Bookmark, Heart, MessageCircle, Send } from "lucide-react"
 
 const PublicacionAbajo = () => {
     return (
-        <div className="flex flex-col w-full gap-2 mt-96 ">
+        <div className="flex flex-col w-full gap-2 ">
             <div className="flex flex-row items-center justify-between">
                 <div className="flex flex-row items-center gap-3 text-gray-900 w-fit">
                     <Heart className="w-6 h-6 " strokeWidth={1}/>

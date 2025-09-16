@@ -19,14 +19,14 @@ const Carrusel1 = () => {
                     <Image src="/lafuerza/carru1/placa3.jpg" fill quality={95} priority alt="Foto de celular" className="object-contain w-full h-full" />
                 </div> 
 
-                <div className="absolute pt-1 right-[14px]">
+                <div className="absolute pt-1 right-[0px]">
                     <Phone>
-                        <div className="w-full p-4">
+                        <div className="flex flex-col justify-between w-full h-full p-4 pt-16 pb-10">
                             <div className="absolute top-0 z-20 -translate-x-1/2 left-1/2">
                                 <div className="w-32 h-3 bg-black rounded-b-xl"></div>
                             </div>
                             <PublicacionArriba />
-                                <Image src="/lafuerza/carru1/placa4.jpg" fill quality={95} priority alt="Foto de celular" className="object-contain w-full h-full" />
+                                <Image src="/lafuerza/carru1/placa4.jpg" fill quality={95} priority alt="Foto de celular" className="object-contain" />
                             <PublicacionAbajo />
                         </div>
                     </Phone>

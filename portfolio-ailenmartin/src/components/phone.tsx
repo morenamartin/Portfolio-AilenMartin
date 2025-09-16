@@ -27,7 +27,7 @@ const Phone = ({
                 }}
             >
 
-                <div className="relative flex flex-col rounded-[30px] w-full h-full bg-gray-100">
+                <div className="relative rounded-[30px] w-full h-full bg-gray-100">
                     {children}
                 </div>
             </div>

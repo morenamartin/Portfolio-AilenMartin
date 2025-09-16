@@ -12,7 +12,7 @@ const DecoHistorias = () => {
             </div>
 
             <div className="flex flex-row items-center w-full gap-2">
-                <div className="w-[83%] bg-[#c5c5c563] rounded-full h-3"></div>
+                <div className="w-[83%] bg-[#c5c5c563] rounded-full h-6"></div>
                 <Heart strokeWidth={1} className="w-5 h-5 text-white"/>
             </div>
         </div>
