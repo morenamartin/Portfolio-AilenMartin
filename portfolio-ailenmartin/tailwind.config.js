@@ -14,9 +14,10 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         openSans: ["Open Sans", "sans-serif"],
+        sourceSerif: ["Source Serif 4", "sans-serif"],
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 }
 
