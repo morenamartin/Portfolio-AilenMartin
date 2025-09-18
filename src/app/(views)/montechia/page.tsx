@@ -13,7 +13,7 @@ const Montechia = () => {
     return (
         <div>
             <div className="grid items-center grid-cols-2 pt-24">
-                <div className="pl-20 font-serif"> 
+                <div className="pl-20 font-"> 
                     <h1 className="mb-4 text-3xl -tracking-[2px]">Montechia</h1>
                     <p className="text-xl leading-8">
                         Marcas hay muchas y si no te diferencias del resto, <br/>

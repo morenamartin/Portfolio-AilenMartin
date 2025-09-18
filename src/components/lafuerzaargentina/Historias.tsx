@@ -17,13 +17,10 @@ const Historias = () => {
             <div className="h-1 w-[90%] bg-pink-500"></div>
 
 
-                <div className="grid grid-cols-3 gap-10 my-16 ">
+                <div className="flex flex-row flex-wrap gap-4 my-16 ">
                 {arrayHistorias.map((hist, index) => (
-                    <Phone key={index}  width="16rem" height="76vh">
-                        <div className="relative w-full h-full overflow-hidden rounded-[30px] ">
-                            <DecoHistorias />
-                            <Image src={hist} fill quality={100} priority alt="Foto de celular" className="object-cover" />                         
-                        </div>
+                    <Phone historia decoHistorias key={index} className="p-1 overflow-hidden w-52 h-96">
+                        <Image src={hist} width={200} height={0} quality={100} priority alt="Foto de celular " className="rounded-t-[25px]"/>                         
                     </Phone>
                 ))}
                 </div>

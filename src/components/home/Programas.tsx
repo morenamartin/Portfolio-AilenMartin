@@ -67,14 +67,14 @@ const arrayProgramas = [
 const Programas = () => {
     return (
         <div className="mt-24">
-            <h1 className="font-serif text-[#e1b4bf] text-7xl -tracking-[4px] text-center">PROGRAMAS QUE <br /> UTILIZO</h1>
+            <h1 className="font- text-[#e1b4bf] text-7xl -tracking-[4px] text-center">PROGRAMAS QUE <br /> UTILIZO</h1>
             <div className="grid grid-cols-2 gap-x-40 w-[45%] mt-10 mx-auto">
                 {arrayProgramas.map((programa, index) => (
                     <div key={index} className="flex flex-row items-center mb-4 w-80">
                         <div className="w-[70px] h-fit flex justify-center items-center mr-4">
                             <Image src={programa.icono} alt={programa.titulo} />    
                         </div>
-                        <span className="font-serif text-3xl">{programa.titulo}</span>
+                        <span className="text-3xl font-">{programa.titulo}</span>
                     </div>
                 ))}
             </div>

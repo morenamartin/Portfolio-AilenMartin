@@ -11,15 +11,8 @@ const Carrusel2 = () => {
                 </div>
 
                 <div className="pt-1 ">
-                    <Phone>
-                        <div className="flex flex-col justify-between w-full h-full p-4 pt-16 pb-10">
-                            <div className="absolute top-0 z-20 -translate-x-1/2 left-1/2">
-                                <div className="w-32 h-3 bg-black rounded-b-xl"></div>
-                            </div>
-                            <PublicacionArriba />
-                                <Image src="/lafuerza/carru2/PLACA2.jpg" fill quality={95} priority alt="Foto de celular" className="object-contain" />
-                            <PublicacionAbajo />
-                        </div>
+                    <Phone publicacionAbajo publicacionArriba top>
+                        <Image src="/lafuerza/carru2/PLACA2.jpg" width={300} height={0} quality={95} priority alt="Foto de celular" />
                     </Phone>
                 </div>
 

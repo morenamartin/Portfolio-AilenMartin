@@ -28,12 +28,12 @@ const arrayEducacion = [
 const Educacion = ()  => {
     return (
         <div className="mt-20">
-            <h1 className="font-serif text-[#e1b4bf] text-7xl -tracking-[4px] text-center">EDUCACIÓN</h1>
+            <h1 className="font- text-[#e1b4bf] text-7xl -tracking-[4px] text-center">EDUCACIÓN</h1>
             {
                 arrayEducacion.map((educacion, index) => (
                     <div key={index} className="mt-10 w-[60%] m-auto text-center">
                         <h2 className="font-openSans text-2xl -tracking-[1px] text-[#f975b8]"><strong>{educacion.titulo}</strong></h2>
-                        <p className="font-serif text-base -tracking-[1px]">{educacion.donde}</p>
+                        <p className=" text-base -tracking-[1px]">{educacion.donde}</p>
                     </div>
                 ))
             }

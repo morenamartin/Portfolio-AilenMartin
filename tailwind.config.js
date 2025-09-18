@@ -8,16 +8,7 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
-        openSans: ["Open Sans", "sans-serif"],
-        sourceSerif: ["Source Serif 4", "sans-serif"],
-      },
-    },
-  },
+  theme: {},
   plugins: [],
 }
 
