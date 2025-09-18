@@ -1,11 +1,7 @@
-import Carrusel1 from "@/components/lafuerzaargentina/Carrusel1";
-import Carrusel2 from "@/components/lafuerzaargentina/Carrusel2";
-import Carrusel3 from "@/components/lafuerzaargentina/Carrusel3";
-import Historias from "@/components/lafuerzaargentina/Historias";
-import Phone from "@/components/phone";
-import PublicacionAbajo from "@/components/phone/PublicacionAbajo";
-import PublicacionArriba from "@/components/phone/PublicacionArriba";
-import Image from "next/image";
+import Carrusel1 from "@/components/lafuerzaargentina/CARRUSEL-1/Carrusel1";
+import Carrusel2 from "@/components/lafuerzaargentina/CARRUSEL-2/Carrusel2";
+import Carrusel3 from "@/components/lafuerzaargentina/CARRUSEL-3/Carrusel3";
+import Historias from "@/components/lafuerzaargentina/HISTORIAS/Historias";
 
 const LaFuerzaArgentina = () => {
     return (

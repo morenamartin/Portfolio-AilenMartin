@@ -2,7 +2,7 @@ import { Heart } from "lucide-react"
 
 const DecoHistorias = () => {
     return (
-        <div className="absolute flex flex-col justify-between w-full h-[100%] py-4 px-2">
+        <div className="absolute flex flex-col justify-between w-full h-[95%] py-4 px-2">
             <div className="flex flex-row items-center gap-2">
                 <div className="w-6 h-6 bg-blue-300 rounded-full"></div>
 
